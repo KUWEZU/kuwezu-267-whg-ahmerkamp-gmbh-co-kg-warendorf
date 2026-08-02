@@ -1,1 +1,39 @@
-{"averageRating":null,"totalCount":0,"source":"Google","fetchedAt":"","reviews":[]}
+{
+  "averageRating": 4.3,
+  "totalCount": 65,
+  "source": "Google",
+  "fetchedAt": "2026-08-02T17:04:05.267Z",
+  "reviews": [
+    {
+      "author": "Tomas Berg",
+      "rating": 2,
+      "text": "Ich wollte lediglich einige wenige Sperrholzplatten kaufen. Mir wurde jedoch gesagt, dass ein Verkauf nur in größeren Mengen möglich sei.\nIch bin mir nicht sicher, ob diese Auskunft korrekt war oder ob es sich um ein Missverständnis seitens des Mitarbeiters gehandelt hat.\n\nFalls die Aussage nicht zutrifft, würde ich mich freuen, wenn dies klargestellt wird. Insgesamt war die Beratung für mein Anliegen leider nicht hilfreich.",
+      "date": "vor 6 Monaten"
+    },
+    {
+      "author": "Ricardo Beile",
+      "rating": 2,
+      "text": "Türen alles super.\nEin Türknopf war Zuhause bei mir verschwunden der wieder aufgetaucht ist. Habe den Türknopf nachbestellt gehabt. Nun muss ich den Türknopf kaufen keine Kulanz möglich das ich den nicht nehmen muss. Schade habe mehr erwartet da ich 8 Türen dort gekauft habe.",
+      "date": "vor einem Jahr"
+    },
+    {
+      "author": "Dieter Wienker",
+      "rating": 5,
+      "text": "Wir waren dort schon vor 30 Jahren gut aufgehoben und wurden auch jetzt, wo ein Austausch eines Bodenbelags ansteht. wieder freundlich und umfassend gut beraten. Danke!",
+      "date": "vor 10 Monaten"
+    },
+    {
+      "author": "Felix Alias Montray",
+      "rating": 1,
+      "text": "Es war mal alles gut! Haben dort schon mehrere male Holz bestellt und auch sogar Gartenmöbel. Aber jetzt wird es langsam ärgerlich. Haben Holz bestellt was nun nach 3 Wochen immer noch nicht geliefert wurde. Bei der Bestellung hieß es maximal 2 Wochen. Nach dem heutigen Telefonat wurde mir dann mitgeteilt das es weitere 3 Wochen dauern wird.\nDas war es !",
+      "date": "vor 2 Jahren"
+    },
+    {
+      "author": "Judith Schwier",
+      "rating": 1,
+      "text": "Leider wurde uns ein Hywood Parketboden (20qm) aus 2 Chargen geliefert. Die Farbunterschiede sind gravierend. Auch wenn es sich um ein Naturprodukt handelt, sollte die Farbrichtung einheitlich sein. Jetzt haben wir einen teuren Boden in braun und grau. Eigentlich sollte man von einem Fachgeschäft ausgehen, das darauf geachtet wird eine Charge zu liefern. Nach langer Zeit wurden 2 Pakete(nicht ausreichende Menge) nachgeliefert. Leider passen diese auch nicht!\nKein freundlicher Kundenservice!\nKeine Begutachtung!",
+      "date": "vor 3 Jahren"
+    }
+  ],
+  "_debug": "gmb-import"
+}
