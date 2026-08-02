@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-08-02T18:10:33.349Z
+ * Erstellt: 2026-08-02T18:23:50.675Z
  * Kundennummer: 267
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -54,8 +54,8 @@ export const client = {
 
   // ── Über uns ───────────────────────────────────────────────────────────────
   ueberUns: {
-    bild: "https://r2.kuwezu.de/cdn-cgi/image/width=1280,fit=cover,quality=78,format=auto/kunden/267/1785693764110-wohnmobile.jpg",
-    bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=640,fit=cover,quality=78,format=auto/kunden/267/1785693764110-wohnmobile.jpg 640w, https://r2.kuwezu.de/cdn-cgi/image/width=1024,fit=cover,quality=78,format=auto/kunden/267/1785693764110-wohnmobile.jpg 1024w, https://r2.kuwezu.de/cdn-cgi/image/width=1536,fit=cover,quality=78,format=auto/kunden/267/1785693764110-wohnmobile.jpg 1536w",
+    bild: "https://r2.kuwezu.de/cdn-cgi/image/width=1280,fit=cover,quality=78,format=auto/kunden/267/1785694966256-kfz_und_lkw_werkstatt.png",
+    bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=640,fit=cover,quality=78,format=auto/kunden/267/1785694966256-kfz_und_lkw_werkstatt.png 640w, https://r2.kuwezu.de/cdn-cgi/image/width=1024,fit=cover,quality=78,format=auto/kunden/267/1785694966256-kfz_und_lkw_werkstatt.png 1024w, https://r2.kuwezu.de/cdn-cgi/image/width=1536,fit=cover,quality=78,format=auto/kunden/267/1785694966256-kfz_und_lkw_werkstatt.png 1536w",
     bildSizes: "(max-width: 1024px) 100vw, 50vw",
     ueberschrift: "WHG-Ahmerkamp GmbH & Co KG — Ihr Partner in Warendorf",
     text1: "Als erfahrener Holzhandel-Betrieb in Warendorf bieten wir unseren Kunden seit Jahren zuverlässigen Service und kompetente Beratung. Mit Fachkompetenz und modernen Methoden lösen wir Ihre Anliegen effizient und zuverlässig.",
@@ -100,6 +100,14 @@ export const client = {
       bild: "https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Klimaservice/1777878264706-klimaanlagen-service.webp",
       bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=400,fit=cover,quality=78,format=auto/bibliothek/Klimaservice/1777878264706-klimaanlagen-service.webp 400w, https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Klimaservice/1777878264706-klimaanlagen-service.webp 800w",
       description: "Professionelle Klimaservice — schnell, zuverlässig und zu fairen Preisen.",
+      highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
+    },
+    {
+      slug: "elektroautos",
+      title: "Elektroautos",
+      bild: "https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Elektroautos/1777878408924-leistung_elektroautos.webp",
+      bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=400,fit=cover,quality=78,format=auto/bibliothek/Elektroautos/1777878408924-leistung_elektroautos.webp 400w, https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Elektroautos/1777878408924-leistung_elektroautos.webp 800w",
+      description: "Professionelle Elektroautos — schnell, zuverlässig und zu fairen Preisen.",
       highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
     }
   ] as { slug: string; title: string; bild: string; bildSrcset: string; description: string; highlights: string[] }[],
