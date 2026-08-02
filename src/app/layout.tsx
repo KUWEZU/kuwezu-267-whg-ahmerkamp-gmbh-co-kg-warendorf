@@ -20,17 +20,17 @@ const geistSans = Geist({
 const COOKIE_CONSENT_REQUIRED: boolean = false;
 
 export const metadata: Metadata = {
-  title: "WHG-Ahmerkamp GmbH & Co KG | Lackiererei in Warendorf",
+  title: "WHG-Ahmerkamp GmbH & Co KG | Holzhandel in Warendorf",
   description: "WHG-Ahmerkamp GmbH & Co KG in Warendorf — Ihr Experte für Achsvermessung, Autoglas, Bremsen und mehr. Jetzt Termin vereinbaren!",
   openGraph: {
-    title: "WHG-Ahmerkamp GmbH & Co KG | Lackiererei in Warendorf",
+    title: "WHG-Ahmerkamp GmbH & Co KG | Holzhandel in Warendorf",
     description: "WHG-Ahmerkamp GmbH & Co KG in Warendorf — Ihr Experte für Achsvermessung, Autoglas, Bremsen und mehr. Jetzt Termin vereinbaren!",
     type: "website",
     locale: "de_DE",
   },
   twitter: {
     card: "summary_large_image",
-    title: "WHG-Ahmerkamp GmbH & Co KG | Lackiererei in Warendorf",
+    title: "WHG-Ahmerkamp GmbH & Co KG | Holzhandel in Warendorf",
     description: "WHG-Ahmerkamp GmbH & Co KG in Warendorf — Ihr Experte für Achsvermessung, Autoglas, Bremsen und mehr. Jetzt Termin vereinbaren!",
   },
   icons: {

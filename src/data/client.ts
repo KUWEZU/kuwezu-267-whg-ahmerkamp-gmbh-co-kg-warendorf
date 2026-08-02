@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-08-02T18:06:35.422Z
+ * Erstellt: 2026-08-02T18:10:33.349Z
  * Kundennummer: 267
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -10,7 +10,7 @@ export const client = {
   // ── Allgemein ──────────────────────────────────────────────────────────────
   name: "WHG-Ahmerkamp GmbH & Co KG",
   branche: "Malerei / Lackiererei",
-  unternehmenszweck: "Lackiererei",
+  unternehmenszweck: "Holzhandel",
   ort: "Warendorf",
   slogan: "& zuverlässig",
   adresse: "Beckumer Straße 13, 48231 Warendorf",
@@ -44,10 +44,10 @@ export const client = {
     bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=768,fit=cover,quality=78,format=auto/kunden/267/1785693751359-hero_dunkles_auto.jpg 768w, https://r2.kuwezu.de/cdn-cgi/image/width=1280,fit=cover,quality=78,format=auto/kunden/267/1785693751359-hero_dunkles_auto.jpg 1280w, https://r2.kuwezu.de/cdn-cgi/image/width=1920,fit=cover,quality=78,format=auto/kunden/267/1785693751359-hero_dunkles_auto.jpg 1920w",
     bildSizes: "100vw",
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
-    ueberschrift: "Lackiererei — professionell & zuverlässig",
+    ueberschrift: "Holzhandel — professionell & zuverlässig",
     ueberschriftHighlight: "& zuverlässig",
-    ueberschriftLines: ["Lackiererei — professionell", "& zuverlässig"],
-    untertext: "Ihr Partner für alle Belange rund um Lackiererei in Warendorf und Umgebung.",
+    ueberschriftLines: ["Holzhandel — professionell", "& zuverlässig"],
+    untertext: "Ihr Partner für alle Belange rund um Holzhandel in Warendorf und Umgebung.",
     ctaPrimary: { text: "Termin vereinbaren", href: "#kontakt" },
     ctaSecondary: { text: "Leistungen ansehen", href: "#leistungen" },
   },
@@ -58,7 +58,7 @@ export const client = {
     bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=640,fit=cover,quality=78,format=auto/kunden/267/1785693764110-wohnmobile.jpg 640w, https://r2.kuwezu.de/cdn-cgi/image/width=1024,fit=cover,quality=78,format=auto/kunden/267/1785693764110-wohnmobile.jpg 1024w, https://r2.kuwezu.de/cdn-cgi/image/width=1536,fit=cover,quality=78,format=auto/kunden/267/1785693764110-wohnmobile.jpg 1536w",
     bildSizes: "(max-width: 1024px) 100vw, 50vw",
     ueberschrift: "WHG-Ahmerkamp GmbH & Co KG — Ihr Partner in Warendorf",
-    text1: "Als erfahrener Lackiererei-Betrieb in Warendorf bieten wir unseren Kunden seit Jahren zuverlässigen Service und kompetente Beratung. Mit Fachkompetenz und modernen Methoden lösen wir Ihre Anliegen effizient und zuverlässig.",
+    text1: "Als erfahrener Holzhandel-Betrieb in Warendorf bieten wir unseren Kunden seit Jahren zuverlässigen Service und kompetente Beratung. Mit Fachkompetenz und modernen Methoden lösen wir Ihre Anliegen effizient und zuverlässig.",
     text2: "Wir setzen auf höchste Qualität, transparente Preise und persönlichen Service — damit Sie rundum zufrieden sind.",
     tags: ["Qualität", "Zuverlässigkeit", "Faire Preise", "Erfahrung"],
     stats: [
@@ -92,6 +92,14 @@ export const client = {
       bild: "https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Bremsen/1777878346158-bremsen_service.webp",
       bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=400,fit=cover,quality=78,format=auto/bibliothek/Bremsen/1777878346158-bremsen_service.webp 400w, https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Bremsen/1777878346158-bremsen_service.webp 800w",
       description: "Professionelle Bremsen — schnell, zuverlässig und zu fairen Preisen.",
+      highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
+    },
+    {
+      slug: "klimaservice",
+      title: "Klimaservice",
+      bild: "https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Klimaservice/1777878264706-klimaanlagen-service.webp",
+      bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=400,fit=cover,quality=78,format=auto/bibliothek/Klimaservice/1777878264706-klimaanlagen-service.webp 400w, https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Klimaservice/1777878264706-klimaanlagen-service.webp 800w",
+      description: "Professionelle Klimaservice — schnell, zuverlässig und zu fairen Preisen.",
       highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
     }
   ] as { slug: string; title: string; bild: string; bildSrcset: string; description: string; highlights: string[] }[],
