@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-08-02T17:07:17.487Z
+ * Erstellt: 2026-08-02T17:23:22.828Z
  * Kundennummer: 267
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -12,7 +12,7 @@ export const client = {
   branche: "Malerei / Lackiererei",
   unternehmenszweck: "Lackiererei",
   ort: "Warendorf",
-  slogan: "– WHG-Ahmerkamp",
+  slogan: "& zuverlässig",
   adresse: "Beckumer Straße 13, 48231 Warendorf",
   maps_url: "https://www.google.com/maps/place/?q=place_id:ChIJt6KKniSQuUcR7wdxfthy50g",
   // Geokoordinaten → cookie-freie OSM-Karte im Kontakt; null = Adress-Box.
@@ -24,7 +24,7 @@ export const client = {
   logo: "https://r2.kuwezu.de/cdn-cgi/image/width=320,fit=contain,quality=78,format=auto/konzepte/autofit/autofit_logo.webp",
   standort_bild: null,
   // Foto-Attribution (Unsplash/Pexels) → Footer-Hinweis „Fotos: …". Leer = kein Hinweis.
-  bildAttributionen: {"hero":{"autor":"Campbell","autorUrl":"https://unsplash.com/@campful","quelle":"unsplash"},"ueberUns":{"autor":"Erik Mclean","autorUrl":"https://unsplash.com/@introspectivedsgn","quelle":"unsplash"},"karriere":{"autor":"Ravigopal Kesari","autorUrl":"https://unsplash.com/@rvgpl","quelle":"unsplash"}} as {
+  bildAttributionen: {} as {
     hero?: { autor: string; autorUrl: string; quelle: string };
     ueberUns?: { autor: string; autorUrl: string; quelle: string };
     standort?: { autor: string; autorUrl: string; quelle: string };
@@ -44,10 +44,10 @@ export const client = {
     bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=768,fit=cover,quality=78,format=auto/kunden/267/stock-1cltykg.jpg 768w, https://r2.kuwezu.de/cdn-cgi/image/width=1280,fit=cover,quality=78,format=auto/kunden/267/stock-1cltykg.jpg 1280w, https://r2.kuwezu.de/cdn-cgi/image/width=1920,fit=cover,quality=78,format=auto/kunden/267/stock-1cltykg.jpg 1920w",
     bildSizes: "100vw",
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
-    ueberschrift: "Malerei & Lackiererei in Warendorf – WHG-Ahmerkamp",
-    ueberschriftHighlight: "– WHG-Ahmerkamp",
-    ueberschriftLines: ["Malerei & Lackiererei in Warendorf", "– WHG-Ahmerkamp"],
-    untertext: "Ihr Meisterbetrieb für Maler- und Lackierarbeiten in Warendorf – Qualität mit Tradition seit Generationen.",
+    ueberschrift: "Lackiererei — professionell & zuverlässig",
+    ueberschriftHighlight: "& zuverlässig",
+    ueberschriftLines: ["Lackiererei — professionell", "& zuverlässig"],
+    untertext: "Ihr Partner für alle Belange rund um Lackiererei in Warendorf und Umgebung.",
     ctaPrimary: { text: "Termin vereinbaren", href: "#kontakt" },
     ctaSecondary: { text: "Leistungen ansehen", href: "#leistungen" },
   },
@@ -58,8 +58,8 @@ export const client = {
     bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=640,fit=cover,quality=78,format=auto/kunden/267/stock-lu8ucz.jpg 640w, https://r2.kuwezu.de/cdn-cgi/image/width=1024,fit=cover,quality=78,format=auto/kunden/267/stock-lu8ucz.jpg 1024w, https://r2.kuwezu.de/cdn-cgi/image/width=1536,fit=cover,quality=78,format=auto/kunden/267/stock-lu8ucz.jpg 1536w",
     bildSizes: "(max-width: 1024px) 100vw, 50vw",
     ueberschrift: "WHG-Ahmerkamp GmbH & Co KG — Ihr Partner in Warendorf",
-    text1: "Als traditionsreicher Holzfachhandel ist die WHG-Ahmerkamp GmbH & Co. KG seit vielen Jahren \nder Holzhandel für Warendorf und das Münsterland und versorgt Profis und Heimwerker der Region mit hochwertigen Produkten aus den Bereichen Holzbau, Innenausbau, Gartenholz, Fußboden und Türen\n. An unserem Standort in Warendorf erwartet Sie \neine Fläche von insgesamt 50.000 m², davon 45.000 m² moderne Lagerfläche und 800 m² Ausstellung, mit der größten Türen- und Fußbodenausstellung der Region\n. Mit \nrund 70 engagierten Mitarbeitenden und einem Fuhrpark von neun LKWs sorgen wir für eine reibungslose Belieferung – flexibel und zuverlässig\n. Als \nTeil der Cordes-Gruppe, einer der größten Holzhandelsgruppen Deutschlands, profitieren unsere Kunden von Stabilität, umfassender Kompetenz und Qualität – unterstützt durch eigene Produktionswerke\n.",
-    text2: "",
+    text1: "Als erfahrener Lackiererei-Betrieb in Warendorf bieten wir unseren Kunden seit Jahren zuverlässigen Service und kompetente Beratung. Mit Fachkompetenz und modernen Methoden lösen wir Ihre Anliegen effizient und zuverlässig.",
+    text2: "Wir setzen auf höchste Qualität, transparente Preise und persönlichen Service — damit Sie rundum zufrieden sind.",
     tags: ["Qualität", "Zuverlässigkeit", "Faire Preise", "Erfahrung"],
     stats: [
       { value: "24+", label: "Jahre Erfahrung" },

@@ -89,7 +89,7 @@ export function Kontakt() {
   // eine ungerade Kachelzahl lässt hinten eine freie Lücke.
   const baseInfos: { icon: typeof Phone; title: string; lines: readonly string[]; href: string | null; external?: boolean }[] = [
     { icon: Phone,  title: "Telefon",        lines: [client.telefon], href: `tel:${client.telefon}` },
-    { icon: MapPin, title: "Adresse",        lines: [formatAdresse(client.adresse)], href: adressHref, external: true },
+    { icon: MapPin, title: "Standort",       lines: [formatAdresse(client.adresse)], href: adressHref, external: true },
     { icon: Clock,  title: "Öffnungszeiten", lines: client.kontakt.oeffnungszeiten.map(withUhr), href: null },
   ];
   // E-Mail-Kachel füllt NUR eine solche freie Lücke: nur zeigen, wenn die Zahl der
@@ -186,7 +186,9 @@ export function Kontakt() {
                         {line}
                       </a>
                     ) : (
-                      <p key={i} className="text-base text-brand-muted leading-relaxed whitespace-pre-line">{line}</p>
+                      // Einheitliche Kachel-Typografie: nicht-verlinkte Werte (z. B.
+                      // Öffnungszeiten) genauso dunkel/medium wie Telefon/Adresse/TÜV.
+                      <p key={i} className="text-base text-brand-text font-medium leading-relaxed whitespace-pre-line">{line}</p>
                     )
                   )}
                 </div>
